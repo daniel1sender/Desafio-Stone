@@ -49,8 +49,7 @@ func main() {
 }
 
 //Aqui declaro a estrutura Item com três tipos de dados referentes ao Item (nomeItem, quantidade, preço)
-// A criação dessa estrutura permite que eu lide com cada tipo de dado de cada item separadamente, por exemplo, caso eu queira multiplicar 
-//a quantidade e o preço de cada item
+A criação dessa estrutura permite que eu lide com cada tipo de dado de cada item separadamente, por exemplo, caso eu queira multiplicar a quantidade e o preço de cada item
 type Item struct {
 	nomeItem   string
 	quantidade int
