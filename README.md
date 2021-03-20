@@ -16,5 +16,5 @@ ListaItens := ListaItens{
   
   Ao rodar o programa, ele retornará uma mapa onde as chaves são os emails das pessoas e os valores são o total a pagar por pessoa em centavos.  
   
-  
+  Exemplo: map[daniel@golang.com:2774 joão@golang.com:2774 junior@golang.com:2773] 
   
