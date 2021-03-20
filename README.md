@@ -1,7 +1,7 @@
 # Desafio-Stone
 Desafio Stone em GO
 
-Para testar o programa basta alterar as lista de itens ([]Item) ou a lista de emails (ListaEmails) acrescentando ou excluindo campos. Para cada item na lista de itens há três valores (ex: {"Biscoito", 1, 2321}) o primeiro se refere ao nome do produto, o segundo a quantidade desse produto e o terceiro ao preço em centavos. 
+Para testar o programa basta alterar as lista de itens ([]Item) ou a lista de emails (ListaEmails) acrescentando ou excluindo campos. Para cada item na lista de itens existem três valores (ex: {"Biscoito", 1, 2321}) o primeiro se refere ao nome do produto, o segundo a quantidade desse produto e o terceiro ao preço em centavos. 
 
 ListaItens := ListaItens{
 		[]Item{
