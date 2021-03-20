@@ -1,7 +1,7 @@
 # Desafio-Stone
 Desafio Stone em GO
 
-Para executar pode copia-lo para o vscode salvar o arquivo com extensão .go e executa-lo.
+Para executar pode copiar o codigoDesafio.go para o vscode salvar o arquivo com extensão .go e executa-lo.
 
 Para testar o resultado do programa basta alterar as lista de itens ([]Item) ou a lista de emails (ListaEmails) acrescentando ou excluindo os dados. Para cada item na lista de itens existem três valores (ex: {"Biscoito", 1, 2321}) o primeiro se refere ao nome do produto, o segundo a quantidade desse produto e o terceiro ao preço em centavos. 
 
