@@ -24,13 +24,15 @@ func main() {
 }
 
 //Aqui declaro a estrutura Item com três tipos de dados referentes ao Item (nomeItem, quantidade, preço)
+// A criação estrutura Item permite que eu lide com cada tipo de dado de cada item separadamente, por exemplo, caso eu queira multiplicar
+//a quantidade e o preço de cada item e depois soma-los
 type Item struct {
 	nomeItem   string
 	quantidade int
 	preço      int
 }
 
-//Aqui declaro a estrutura ListaItens com um tipo de dado do tipo slice ([]Item)
+//Aqui declaro a estrutura ListaItens com um tipo de dado do tipo slice ([]Item) referente a estrutura anterior Item
 type ListaItens struct {
 	Itens []Item
 }
@@ -50,8 +52,8 @@ func contaTotal(l ListaItens, ListaEmails ...string) map[string]int {
 		return mapaTotal
 	}
 
-	//esse loop calcula o total a ser pago da lista de compras, ou seja, o preço de cada item
-	//(v.preço) multiplicado pela quantidade de cada item (v.quantidade)
+	//esse looping percurre toda lista de itens com a função range e calcula o total a ser pago da lista de compras
+	//, ou seja, o preço de cada item (v.preço) multiplicado pela quantidade de cada item (v.quantidade)
 	for _, v := range l.Itens {
 		total += v.preço * v.quantidade
 	}
